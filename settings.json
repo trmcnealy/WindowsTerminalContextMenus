@@ -5,30 +5,35 @@
             "guid": "{0CAA0DAD-35BE-5F56-A8FF-AFCEEEAA6101}",
             "name": "Command Prompt",
             "icon": "%GITHUB_REPO%\\WindowsTerminalContextMenus\\cmd.ico",
+            "startingDirectory": "%__CD__%"
         },
         {
             "guid": "{61C54BBD-C2C6-5271-96E7-009A87FF44BF}",
             "name": "Windows PowerShell",
             "commandline": "C:/PROGRA~1/PowerShell/7/pwsh.exe -NoLogo",
             "icon": "%SystemRoot%/Installer/{41D89B69-B90A-4CFB-9783-4B86D2B34EC3}/PowerShellExe.ico",
+            "startingDirectory": "%__CD__%"
         },
         {
             "guid": "{673BC9F0-1B82-472B-8612-E42E0A781560}",
             "name": "Anaconda Prompt",
             "commandline": "%GITHUB_REPO%\\WindowsTerminalContextMenus\\Anaconda3.cmd %__CD__%",
-            "icon": "%GITHUB_REPO%\\WindowsTerminalContextMenus\\anaconda-navigator.ico"
+            "icon": "%GITHUB_REPO%\\WindowsTerminalContextMenus\\anaconda-navigator.ico",
+            "startingDirectory": "%__CD__%"
         },
         {
             "guid": "{07B52E3E-DE2C-5DB4-BD2D-BA144ED6C273}",
             "name": "Ubuntu-20.04",
             "commandline": "%GITHUB_REPO%\\WindowsTerminalContextMenus\\WSL.cmd %__CD__%",
-            "icon": "%GITHUB_REPO%\\WindowsTerminalContextMenus\\Ubuntu.ico"
+            "icon": "%GITHUB_REPO%\\WindowsTerminalContextMenus\\Ubuntu.ico",
+            "startingDirectory": "%__CD__%"
         },
         {            
             "guid": "{DC13434D-C1E7-449F-890F-5534D1E5478D}",
             "name": "MSYS2 - MINGW64",
             "commandline": "C:/POSIX/msys2_shell.cmd -defterm -no-start -mingw64 -where %__CD__%",
-            "icon": "%GITHUB_REPO%\\WindowsTerminalContextMenus\\msys2.ico"
+            "icon": "%GITHUB_REPO%\\WindowsTerminalContextMenus\\msys2.ico",
+            "startingDirectory": "%__CD__%"
         }
     ]
 }
